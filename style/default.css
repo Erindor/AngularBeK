@@ -1,0 +1,50 @@
+.teste{
+    border-style: solid;
+    border-color: red;
+}
+
+.principal{
+    min-height: 800px;
+    background-color: #ecf0f5;
+}
+
+#menuEsquerdo{
+    background-color: #222d32;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#menuEsquerdo a:link, #menuEsquerdo a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuEsquerdo a:hover{
+    color: rgb(145, 145, 145);
+}
+
+#menuEsquerdo ul{
+    list-style-type: none;
+}
+
+#menuEsquerdo li{
+    margin-top: 10px;
+}
+
+#tituloMenuEsquerdo{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #404c52;
+    padding: 10px;
+}
+
+.conteudo{
+    padding: 10px;
+}
+
+.tituloPagina{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: solid rgb(145, 145, 145);
+}

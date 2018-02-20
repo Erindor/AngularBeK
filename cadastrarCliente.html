@@ -1,0 +1,27 @@
+<div class="conteudo" ng-controller="clientesController as cliCtrl">
+    <div class="tituloPagina"> Cadastrar cliente </div>
+    <form ng-submit="cliCtrl.salvarCliente()">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" ng-model="cliCtrl.cli.nome"/>
+        </div>
+        <div class="form-group">
+            <label for="empresa">Empresa:</label>
+            <input type="text" class="form-control" id="empresa" ng-model="cliCtrl.cli.empresa"/>
+        </div>
+        <div class="form-group">
+            <label for="telefone1">Telefone 1:</label>
+            <input type="text" class="form-control" id="telefone1" ng-model="cliCtrl.cli.telefone1"/>
+        </div>
+        <div class="form-group">
+            <label for="telefone2">Telefone 2:</label>
+            <input type="text" class="form-control" id="telefone2" ng-model="cliCtrl.cli.telefone2"/>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="text" class="form-control" id="email" ng-model="cliCtrl.cli.email"/>
+        </div>
+        <button type="submit" class="btn btn-success">Salvar</button>
+        <a href="#clientes"> <button class="btn btn-danger"> Cancelar </button> </a>
+    </form>
+</div>

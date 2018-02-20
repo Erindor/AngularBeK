@@ -1,0 +1,1 @@
+var caminho_scripts_raiz = "scripts";
